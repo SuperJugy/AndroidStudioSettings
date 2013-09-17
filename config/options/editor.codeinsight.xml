@@ -6,6 +6,7 @@
   <component name="CodeInsightSettings">
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="ADD_IMPORTS_ON_PASTE" value="2" />
   </component>
   <component name="DaemonCodeAnalyzerSettings" profile="Default">
     <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
@@ -15,7 +16,7 @@
     <option name="SUPPRESS_WARNINGS" value="true" />
     <option name="SHOW_METHOD_SEPARATORS" value="false" />
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
-    <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="false" />
+    <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAccessors" value="true" />
