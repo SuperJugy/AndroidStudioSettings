@@ -1,0 +1,7 @@
+com.intellij.commander
+com.google.gct
+hg4idea
+CVS
+com.intellij.copyright
+Subversion
+org.jetbrains.plugins.javaFX
