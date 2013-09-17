@@ -4,7 +4,7 @@
     <jdk version="2">
       <name value="1.6" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.6.0_22&quot;" />
+      <version value="java version &quot;1.6.0_32&quot;" />
       <homePath value="$JAVA_HOME$" />
       <roots>
         <annotationsPath>
@@ -44,7 +44,7 @@
     <jdk version="2">
       <name value="Android 4.3 Platform" />
       <type value="Android SDK" />
-      <version value="java version &quot;1.6.0_22&quot;" />
+      <version value="java version &quot;1.6.0_32&quot;" />
       <homePath value="$APPLICATION_HOME_DIR$/sdk" />
       <roots>
         <annotationsPath>
@@ -70,7 +70,7 @@
           </root>
         </sourcePath>
       </roots>
-      <additional />
+      <additional jdk="1.6" sdk="android-18" />
     </jdk>
   </component>
 </application>
