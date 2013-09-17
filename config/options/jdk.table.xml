@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="1.6" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.6.0_22&quot;" />
+      <homePath value="$JAVA_HOME$" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunmscapi.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunpkcs11.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="jar://$JAVA_HOME$/src.zip!/" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Android 4.3 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.6.0_22&quot;" />
+      <homePath value="$APPLICATION_HOME_DIR$/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/data/res" />
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/sdk/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
+
