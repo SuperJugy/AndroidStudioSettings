@@ -4,7 +4,7 @@
     <jdk version="2">
       <name value="1.6" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.6.0_32&quot;" />
+      <version value="java version &quot;1.6.0_45&quot;" />
       <homePath value="$JAVA_HOME$" />
       <roots>
         <annotationsPath>
@@ -27,7 +27,6 @@
             <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/localedata.jar!/" />
             <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunjce_provider.jar!/" />
             <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunmscapi.jar!/" />
-            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunpkcs11.jar!/" />
           </root>
         </classPath>
         <javadocPath>
@@ -44,7 +43,7 @@
     <jdk version="2">
       <name value="Android 4.3 Platform" />
       <type value="Android SDK" />
-      <version value="java version &quot;1.6.0_32&quot;" />
+      <version value="java version &quot;1.6.0_45&quot;" />
       <homePath value="$APPLICATION_HOME_DIR$/sdk" />
       <roots>
         <annotationsPath>
