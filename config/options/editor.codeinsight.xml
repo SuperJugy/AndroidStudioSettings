@@ -18,9 +18,5 @@
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
     <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
-  <component name="JavaCodeFoldingSettings">
-    <option name="collapseAccessors" value="true" />
-    <option name="COLLAPSE_ACCESSORS" value="true" />
-  </component>
 </application>
 
