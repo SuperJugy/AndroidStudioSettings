@@ -3,7 +3,9 @@
   <component name="ExportableFileTemplateSettings">
     <default_templates />
     <internal_templates />
-    <includes_templates />
+    <includes_templates>
+      <template name="File Header.java" reformat="false" enabled="true" />
+    </includes_templates>
     <code_templates />
     <j2ee_templates />
   </component>

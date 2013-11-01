@@ -4,8 +4,8 @@
     <jdk version="2">
       <name value="1.7" />
       <type value="JavaSDK" />
-      <version value="java version &quot;1.7.0_06&quot;" />
-      <homePath value="$JAVA_JDK7$" />
+      <version value="java version &quot;1.7.0_45&quot;" />
+      <homePath value="$JAVA_HOME$" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -14,25 +14,25 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/charsets.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/deploy.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/javaws.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/jce.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/jfr.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/jfxrt.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/jsse.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/management-agent.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/plugin.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/resources.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/rt.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/access-bridge-64.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/dnsns.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/jaccess.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/localedata.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/sunec.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/sunjce_provider.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/sunmscapi.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK7$/jre/lib/ext/zipfs.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/jfr.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/jfxrt.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/access-bridge-64.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/jaccess.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/sunmscapi.jar!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/jre/lib/ext/zipfs.jar!/" />
           </root>
         </classPath>
         <javadocPath>
@@ -40,55 +40,16 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="jar://$JAVA_JDK7$/src.zip!/" />
+            <root type="simple" url="jar://$JAVA_HOME$/src.zip!/" />
           </root>
         </sourcePath>
       </roots>
       <additional />
     </jdk>
     <jdk version="2">
-      <name value="1.6" />
-      <type value="JavaSDK" />
-      <version value="java version &quot;1.6.0_45&quot;" />
-      <homePath value="$JAVA_JDK6$" />
-      <roots>
-        <annotationsPath>
-          <root type="composite">
-            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
-          </root>
-        </annotationsPath>
-        <classPath>
-          <root type="composite">
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/charsets.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/deploy.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/javaws.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/jce.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/jsse.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/management-agent.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/plugin.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/resources.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/rt.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/ext/dnsns.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/ext/localedata.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/ext/sunjce_provider.jar!/" />
-            <root type="simple" url="jar://$JAVA_JDK6$/jre/lib/ext/sunmscapi.jar!/" />
-          </root>
-        </classPath>
-        <javadocPath>
-          <root type="composite" />
-        </javadocPath>
-        <sourcePath>
-          <root type="composite">
-            <root type="simple" url="jar://$JAVA_JDK6$/src.zip!/" />
-          </root>
-        </sourcePath>
-      </roots>
-      <additional />
-    </jdk>
-    <jdk version="2">
-      <name value="Android 4.3 Platform" />
+      <name value="Android 4.4 Platform" />
       <type value="Android SDK" />
-      <version value="java version &quot;1.6.0_45&quot;" />
+      <version value="java version &quot;1.7.0_45&quot;" />
       <homePath value="$APPLICATION_HOME_DIR$/sdk" />
       <roots>
         <annotationsPath>
@@ -98,8 +59,8 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/android.jar!/" />
-            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-18/data/res" />
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res" />
             <root type="simple" url="jar://$APPLICATION_HOME_DIR$/sdk/tools/support/annotations.jar!/" />
           </root>
         </classPath>
@@ -110,11 +71,11 @@
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19" />
           </root>
         </sourcePath>
       </roots>
-      <additional jdk="1.6" sdk="android-18" />
+      <additional jdk="1.7" sdk="android-19" />
     </jdk>
   </component>
 </application>
