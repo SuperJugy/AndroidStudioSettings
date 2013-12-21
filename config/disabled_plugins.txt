@@ -1,7 +1,8 @@
-com.intellij.commander
+org.intellij.intelliLang
 com.google.gct
 hg4idea
 CVS
+TestNG-J
 com.intellij.copyright
 Subversion
 org.jetbrains.plugins.javaFX
