@@ -9,6 +9,7 @@
       <roots>
         <annotationsPath>
           <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
             <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
           </root>
         </annotationsPath>

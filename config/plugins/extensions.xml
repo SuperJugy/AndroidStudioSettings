@@ -1,1250 +1,2934 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <exts>
   <option name="myExtensions">
-    <entry key="MF">
+    <entry key="*.MF">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Osmorc" />
+            <plugin>
+              <option name="myPluginId" value="Osmorc" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="R">
+    <entry key="*.R">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="R4Intellij" />
+            <plugin>
+              <option name="myPluginId" value="R4Intellij" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="aidl">
+    <entry key="*.aj">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.android" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.aspectj" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ake">
+    <entry key="*.applejs">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="arc">
+    <entry key="*.arc">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Arc" />
+            <plugin>
+              <option name="myPluginId" value="Arc" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="b">
+    <entry key="*.as">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="bash">
+    <entry key="*.ascx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="BashSupport" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.asp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="bat">
+    <entry key="*.asp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Batch Scripts Support 1.0.3" />
-            <option value="CMD Support" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.asp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="bemhtml">
+    <entry key="*.aspx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="BEM Support" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.asp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="blueprintinjectionlanguage">
+    <entry key="*.bash">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Camelry" />
+            <plugin>
+              <option name="myPluginId" value="BashSupport" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="bnf">
+    <entry key="*.bat">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.idea.grammar" />
+            <plugin>
+              <option name="myPluginId" value="Batch Scripts Support 1.0.3" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="CMD Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="bp">
+    <entry key="*.bemhtml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Parser for IDEA" />
+            <plugin>
+              <option name="myPluginId" value="BEM Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="builder">
+    <entry key="*.blueprintinjectionlanguage">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="Camelry" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="bw">
+    <entry key="*.bnf">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.grammar" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="clj">
+    <entry key="*.bp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Clo-Jet" />
+            <plugin>
+              <option name="myPluginId" value="Parser for IDEA" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="cmd">
+    <entry key="*.builder">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Batch Scripts Support 1.0.3" />
-            <option value="CMD Support" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="conf">
+    <entry key="*.cfc">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="CFML Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="dart">
+    <entry key="*.cfm">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Dart" />
+            <plugin>
+              <option name="myPluginId" value="CFML Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="dp">
+    <entry key="*.cfml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.dylanfoundry.deft" />
+            <plugin>
+              <option name="myPluginId" value="CFML Support" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="dvi">
+    <entry key="*.classpath">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Latex Plugin" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="emspec">
+    <entry key="*.clj">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="Clo-Jet" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="erb">
+    <entry key="*.cmd">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="Batch Scripts Support 1.0.3" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="CMD Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="erl">
+    <entry key="*.coffee">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.erlang" />
+            <plugin>
+              <option name="myPluginId" value="org.coffeescript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="exml">
+    <entry key="*.conf">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="net.jangaroo.idea.0.9" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="fan">
+    <entry key="*.css">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Fantom Support" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.css" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="feature">
+    <entry key="*.dart">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="cucumber" />
+            <plugin>
+              <option name="myPluginId" value="Dart" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="Dart" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="flex">
+    <entry key="*.ddl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="JFlex Support" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.sql" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="glsl">
+    <entry key="*.doclua">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="GLSL" />
+            <plugin>
+              <option name="myPluginId" value="Lua" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="handlebars">
+    <entry key="*.drl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.dmarcotte.handlebars" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.drools" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="hbs">
+    <entry key="*.dvi">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.dmarcotte.handlebars" />
+            <plugin>
+              <option name="myPluginId" value="Latex Plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="hor">
+    <entry key="*.dylan">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="org.dylanfoundry.deft" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="hphp">
+    <entry key="*.erb">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="hrl">
+    <entry key="*.erl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.erlang" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.erlang" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="hs">
+    <entry key="*.es">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="ideah" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="id">
+    <entry key="*.exml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.dylanfoundry.deft" />
+            <plugin>
+              <option name="myPluginId" value="net.jangaroo.idea.0.9" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="inc">
+    <entry key="*.fan">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="Fantom Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jade">
+    <entry key="*.feature">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.plugins.jade" />
+            <plugin>
+              <option name="myPluginId" value="cucumber" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="cucumber" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jag">
+    <entry key="*.flex">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="JaggeryEditorSupport" />
+            <plugin>
+              <option name="myPluginId" value="JFlex Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jfd">
+    <entry key="*.form">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="JFormDesigner" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.uiDesigner" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jil">
+    <entry key="*.ft">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.duncanjauncey.autosysplugin" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jinja2">
+    <entry key="*.ftl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.freemarker" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jmx">
+    <entry key="*.fxg">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="JMeter plugin" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.flex" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="jsfl">
+    <entry key="*.fxml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="JSFL Support" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.javaFX" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="kt">
+    <entry key="*.gemspec">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.kotlin" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ktm">
+    <entry key="*.glsl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.kotlin" />
+            <plugin>
+              <option name="myPluginId" value="GLSL" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="kts">
+    <entry key="*.go">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.kotlin" />
+            <plugin>
+              <option name="myPluginId" value="ro.redeul.google.go" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="launch">
+    <entry key="*.gsp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.kukido.eclipser" />
+            <plugin>
+              <option name="myPluginId" value="org.intellij.grails" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="lhs">
+    <entry key="*.haml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="ideah" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.haml" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="libd">
+    <entry key="*.handlebars">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.intellij.dmserver" />
+            <plugin>
+              <option name="myPluginId" value="com.dmarcotte.handlebars" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ltp">
+    <entry key="*.hbs">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.textmapper.idea" />
+            <plugin>
+              <option name="myPluginId" value="com.dmarcotte.handlebars" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ltt">
+    <entry key="*.hdp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Libretto" />
+            <plugin>
+              <option name="myPluginId" value="org.dylanfoundry.deft" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ltx">
+    <entry key="*.hphp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Latex Plugin" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="lua">
+    <entry key="*.hql">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Lua" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.javaee" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="m">
+    <entry key="*.hrl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="de.halirutan.mathematica" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.erlang" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="mako">
+    <entry key="*.hs">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="ideah" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="markdown">
+    <entry key="*.hx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="net.nicoulaj.idea.markdown" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.plugins.haxe" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="mb">
+    <entry key="*.ids">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="de.halirutan.mathematica" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.persistence.database" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="md">
+    <entry key="*.inc">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="net.nicoulaj.idea.markdown" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="mkd">
+    <entry key="*.ini">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="net.nicoulaj.idea.markdown" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.ini4idea" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="module">
+    <entry key="*.intr">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="org.dylanfoundry.deft" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="mt">
+    <entry key="*.jade">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="de.halirutan.mathematica" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.plugins.jade" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="mustache">
+    <entry key="*.jag">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.dmarcotte.handlebars" />
+            <plugin>
+              <option name="myPluginId" value="JaggeryEditorSupport" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="nb">
+    <entry key="*.jfd">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="de.halirutan.mathematica" />
+            <plugin>
+              <option name="myPluginId" value="JFormDesigner" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="neon">
+    <entry key="*.jil">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="NEON support" />
+            <plugin>
+              <option name="myPluginId" value="com.duncanjauncey.autosysplugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ni">
+    <entry key="*.jinja2">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.plugins.ini4idea" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="nmml">
+    <entry key="*.jmx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.intellij.plugins.haxe" />
+            <plugin>
+              <option name="myPluginId" value="JMeter plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ntr">
+    <entry key="*.js">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.dylanfoundry.deft" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="o">
+    <entry key="*.js2">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="ro.redeul.google.go" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="oclua">
+    <entry key="*.jsb2">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Lua" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="opts">
+    <entry key="*.jsb3">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="org">
+    <entry key="*.jsf">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Org4Idea" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="p">
+    <entry key="*.jsfl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Parser for IDEA" />
+            <plugin>
+              <option name="myPluginId" value="JSFL Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="phar">
+    <entry key="*.jshintrc">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="php">
+    <entry key="*.json">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="php4">
+    <entry key="*.jsp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="php5">
+    <entry key="*.jspf">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="phtml">
+    <entry key="*.jspx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pig">
+    <entry key="*.jstd">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.apache.pig.plugin.idea" />
+            <plugin>
+              <option name="myPluginId" value="JSTestDriver Plugin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="JSTestDriver Plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pkb">
+    <entry key="*.kt">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="SQL" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pks">
+    <entry key="*.ktm">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="SQL" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="plan">
+    <entry key="*.kts">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.intellij.dmserver" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.kotlin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="po">
+    <entry key="*.launch">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.localization" />
+            <plugin>
+              <option name="myPluginId" value="com.kukido.eclipser" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pod">
+    <entry key="*.less">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Fantom Support" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.less" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pp">
+    <entry key="*.lhs">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Parser for IDEA" />
-            <option value="com.intellij.lang.puppet" />
+            <plugin>
+              <option name="myPluginId" value="ideah" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="preview">
+    <entry key="*.libd">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.idea.grammar" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.dmserver" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.dmserver" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="props">
+    <entry key="*.lid">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jodd.idea.props" />
+            <plugin>
+              <option name="myPluginId" value="org.dylanfoundry.deft" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="proto">
+    <entry key="*.ltp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.nmatveev.idea-plugin-protobuf" />
+            <plugin>
+              <option name="myPluginId" value="org.textmapper.idea" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ps1">
+    <entry key="*.ltt">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="PowerShell" />
+            <plugin>
+              <option name="myPluginId" value="Libretto" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="psql">
+    <entry key="*.ltx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="DBN" />
+            <plugin>
+              <option name="myPluginId" value="Latex Plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="puml">
+    <entry key="*.lua">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="PlantUML integration" />
+            <plugin>
+              <option name="myPluginId" value="Lua" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pxd">
+    <entry key="*.m">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="de.halirutan.mathematica" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pxi">
+    <entry key="*.mako">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pxml">
+    <entry key="*.markdown">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Parser for IDEA" />
+            <plugin>
+              <option name="myPluginId" value="net.nicoulaj.idea.markdown" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="py">
+    <entry key="*.mb">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="de.halirutan.mathematica" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pyw">
+    <entry key="*.md">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="net.nicoulaj.idea.markdown" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="pyx">
+    <entry key="*.mkd">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="net.nicoulaj.idea.markdown" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="qrc">
+    <entry key="*.module">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rbl">
+    <entry key="*.mt">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Randori Compiler" />
+            <plugin>
+              <option name="myPluginId" value="de.halirutan.mathematica" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rdoc">
+    <entry key="*.mustache">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="com.dmarcotte.handlebars" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rhtml">
+    <entry key="*.mxml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.flex" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rjs">
+    <entry key="*.nb">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="de.halirutan.mathematica" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rnc">
+    <entry key="*.neon">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="RelaxNG-Support" />
+            <plugin>
+              <option name="myPluginId" value="NEON support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rst">
+    <entry key="*.nmml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.rest" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.plugins.haxe" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="rxml">
+    <entry key="*.opts">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="s">
+    <entry key="*.org">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.typoscript" />
+            <plugin>
+              <option name="myPluginId" value="Org4Idea" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="sc">
+    <entry key="*.p">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.scala" />
+            <plugin>
+              <option name="myPluginId" value="Parser for IDEA" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="scala">
+    <entry key="*.phar">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.scala" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="scm">
+    <entry key="*.php">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="schemely" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="sf">
+    <entry key="*.php4">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="cz.ladicek.intellifrog" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="sh">
+    <entry key="*.php5">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="BashSupport" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="simple">
+    <entry key="*.phtml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Camelry" />
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="slim">
+    <entry key="*.pig">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.slim" />
+            <plugin>
+              <option name="myPluginId" value="org.apache.pig.plugin.idea" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="snapshot">
+    <entry key="*.pkb">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="ActionScript Profiler" />
+            <plugin>
+              <option name="myPluginId" value="SQL" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="soy">
+    <entry key="*.pks">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Non-Dairy Soy Plugin" />
+            <plugin>
+              <option name="myPluginId" value="SQL" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="sparql">
+    <entry key="*.plan">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="sparql4idea" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.dmserver" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.dmserver" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="sql">
+    <entry key="*.play">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="DBN" />
-            <option value="SQL" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.play" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ss">
+    <entry key="*.po">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.raket.silverstripe" />
-            <option value="schemely" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.localization" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.localization" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="st">
+    <entry key="*.pod">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Redline Smalltalk" />
+            <plugin>
+              <option name="myPluginId" value="Fantom Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="std">
+    <entry key="*.pot">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="JSTestDriver Plugin" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.localization" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="story">
+    <entry key="*.pp">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="IntelliJBehave" />
-            <option value="jbehave-support-plugin" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.lang.puppet" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="Parser for IDEA" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.lang.puppet" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="tea">
+    <entry key="*.preview">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="tea" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.grammar" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="tex">
+    <entry key="*.project">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Latex Plugin" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.idea.eclipse" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="tl">
+    <entry key="*.props">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.linkedin.intellij.dust" />
+            <plugin>
+              <option name="myPluginId" value="org.jodd.idea.props" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="tm">
+    <entry key="*.proto">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.textmapper.idea" />
+            <plugin>
+              <option name="myPluginId" value="com.nmatveev.idea-plugin-protobuf" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="tpl">
+    <entry key="*.ps1">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="PowerShell" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="twig">
+    <entry key="*.psql">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.jetbrains.php" />
+            <plugin>
+              <option name="myPluginId" value="DBN" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="u">
+    <entry key="*.puml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.jetbrains.plugins.ruby" />
+            <plugin>
+              <option name="myPluginId" value="PlantUML integration" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ua">
+    <entry key="*.pxd">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Lua" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ui">
+    <entry key="*.pxi">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="Pythonid" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="x">
+    <entry key="*.pxml">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="com.intellij.plugins.haxe" />
+            <plugin>
+              <option name="myPluginId" value="Parser for IDEA" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xq">
+    <entry key="*.py">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xqi">
+    <entry key="*.pyw">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xql">
+    <entry key="*.pyx">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xqm">
+    <entry key="*.ql">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="com.intellij.javaee" />
+              <option name="myBundled" value="true" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xquery">
+    <entry key="*.qrc">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xqws">
+    <entry key="*.rake">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="xqy">
+    <entry key="*.rb">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.intellij.xquery" />
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
     </entry>
-    <entry key="ylan">
+    <entry key="*.rbl">
       <plugins>
         <option name="myPlugins">
           <set>
-            <option value="org.dylanfoundry.deft" />
+            <plugin>
+              <option name="myPluginId" value="Randori Compiler" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rbw">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rdoc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rhtml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rjs">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rnc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="RelaxNG-Support" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.roo">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.spring.roo" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rst">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.rest" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.rest" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ru">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rxml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.sass">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.sass" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.sc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.scala">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.scala" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.scala.html">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.scala.play2template" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.scm">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="schemely" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.scss">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.sass" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.sf">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="cz.ladicek.intellifrog" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.sh">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="BashSupport" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.simple">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Camelry" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.slim">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.slim" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.slim" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.snapshot">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="ActionScript Profiler" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="ActionScript Profiler" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.soy">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Non-Dairy Soy Plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.sparql">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="sparql4idea" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.sql">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.sql" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="DBN" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="SQL" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ss">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.raket.silverstripe" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="schemely" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.st">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Redline Smalltalk" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.story">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="IntelliJBehave" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="jbehave-support-plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.styl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.stylus" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.swf">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.flex" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tag">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tagf">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tagx">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tea">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="tea" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tex">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Latex Plugin" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.thor">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.linkedin.intellij.dust" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tm">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.textmapper.idea" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.tapestry" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tpl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ts">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.typoscript" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.twig">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.ui">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.uml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.diagram" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.vm">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.vsl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.velocity" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.wadl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.restWebServices" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.wlua">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Lua" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.wsdd">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Java EE: Web Services (JAX-WS)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="WebServicesPlugin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xjb">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Java EE: Web Services (JAX-WS)" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="WebServicesPlugin" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xjsp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.jsp" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xq">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xqi">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xql">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xqm">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xquery">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xqws">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xqy">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.xquery" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.yaml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.yml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.yaml" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".htaccess">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.apacheConfig" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.apacheConfig" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".rvmrc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="Cakefile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.coffeescript" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="buildout.cfg">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Pythonid" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="capfile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="constants.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.typoscript" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="cpp.dalmpe">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="dal-mpe" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="cucumber">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="ext_conf_template.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.typoscript" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="ext_typoscript_constants.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.typoscript" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="ext_typoscript_setup.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.typoscript" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="gemfile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="gemfile.lock">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="guardfile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="isolate">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="java.dalmpe">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="dal-mpe" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="jshint.json">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="JavaScript" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="messages">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.play" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="objc.dalmpe">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="dal-mpe" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="phpunit.xml.dist">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.php" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="rails">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="rake">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="rakefile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="rcov">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="readme">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="setup.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.jetbrains.typoscript" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="spec">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="spork">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="spring.handlers">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.spring" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="spring.schemas">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.spring" />
+              <option name="myBundled" value="true" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="vagrantfile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="true" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
