@@ -1,7 +1,13 @@
+config/disabled_update.txt
 config/componentVersions/
+config/migration/
+config/options/androidEditors.xml
+config/options/androidStudioFirstRun.xml
 config/options/appComponentVersions.xml
 config/options/browsers.xml
 config/options/feature.usage.statistics.xml
+config/options/mavenServices.xml
+config/options/mavenVersion.xml
 config/options/notifications.xml
 config/options/options.xml
 config/options/other.xml
@@ -10,9 +16,12 @@ config/options/plugin_ui.xml
 config/options/project.default.xml
 config/options/runner.layout.xml
 config/options/statistics.application.usages.xml
+config/options/stubIndex.xml
+config/options/studio.build.statistics.xml
 config/options/usage.statistics.xml
+config/options/web-browsers.xml
 config/options/window.manager.xml
-config/plugins/availables.xml
+config/plugins/
 config/port
 config/tasks/
 system/
