@@ -6,3 +6,5 @@ TestNG-J
 com.intellij.copyright
 Subversion
 org.jetbrains.plugins.javaFX
+com.google.gct.testing
+me.tatarka.androidunittest.idea
