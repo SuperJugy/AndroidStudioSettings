@@ -7,6 +7,7 @@ config/options/appComponentVersions.xml
 config/options/browsers.xml
 config/options/dimensions.xml
 config/options/feature.usage.statistics.xml
+config/options/fileEditorProviderManager.xml
 config/options/find.recents.xml
 config/options/find.xml
 config/options/laf.xml
