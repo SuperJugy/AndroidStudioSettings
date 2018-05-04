@@ -37,3 +37,4 @@ config/tasks/
 config/user.token
 restart/
 system/
+/config/options/javaeeExternalResources.xml
