@@ -14,6 +14,8 @@
     <option name="BLANK_LINES_AROUND_INITIALIZER" value="0" />
     <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
     <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="15" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="15" />
   </JavaCodeStyleSettings>
   <XML>
     <option name="XML_ATTRIBUTE_WRAP" value="0" />
@@ -87,76 +89,7 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <FINAL>true</FINAL>
-                <PROTECTED>true</PROTECTED>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <FINAL>true</FINAL>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <FINAL>true</FINAL>
-                <PRIVATE>true</PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
                 <PUBLIC>true</PUBLIC>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <PROTECTED>true</PROTECTED>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <PRIVATE>true</PRIVATE>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -178,6 +111,39 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PROTECTED>true</PROTECTED>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PROTECTED>true</PROTECTED>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
                 <PROTECTED>true</PROTECTED>
               </AND>
@@ -189,7 +155,50 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
                 <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
@@ -202,6 +211,7 @@
                 <FIELD>true</FIELD>
                 <FINAL>true</FINAL>
                 <PRIVATE>true</PRIVATE>
+                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>
@@ -211,7 +221,8 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PUBLIC>true</PUBLIC>
+                <PRIVATE>true</PRIVATE>
+                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>
@@ -221,17 +232,8 @@
             <match>
               <AND>
                 <FIELD>true</FIELD>
-                <PROTECTED>true</PROTECTED>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD>true</FIELD>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <FINAL>true</FINAL>
+                <PRIVATE>true</PRIVATE>
               </AND>
             </match>
           </rule>
@@ -287,76 +289,7 @@
             <match>
               <AND>
                 <CONSTRUCTOR>true</CONSTRUCTOR>
-                <FINAL>true</FINAL>
-                <PROTECTED>true</PROTECTED>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <FINAL>true</FINAL>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <FINAL>true</FINAL>
-                <PRIVATE>true</PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
                 <PUBLIC>true</PUBLIC>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <PROTECTED>true</PROTECTED>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <PRIVATE>true</PRIVATE>
                 <STATIC>true</STATIC>
               </AND>
             </match>
@@ -378,7 +311,50 @@
             <match>
               <AND>
                 <CONSTRUCTOR>true</CONSTRUCTOR>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
                 <FINAL>true</FINAL>
+                <PROTECTED>true</PROTECTED>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <PROTECTED>true</PROTECTED>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <FINAL>true</FINAL>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
                 <PROTECTED>true</PROTECTED>
               </AND>
             </match>
@@ -391,6 +367,62 @@
                 <CONSTRUCTOR>true</CONSTRUCTOR>
                 <FINAL>true</FINAL>
                 <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <FINAL>true</FINAL>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <FINAL>true</FINAL>
+                <PRIVATE>true</PRIVATE>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <CONSTRUCTOR>true</CONSTRUCTOR>
+                <PRIVATE>true</PRIVATE>
+                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>
@@ -411,36 +443,6 @@
             <match>
               <AND>
                 <CONSTRUCTOR>true</CONSTRUCTOR>
-                <PUBLIC>true</PUBLIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <PROTECTED>true</PROTECTED>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <CONSTRUCTOR>true</CONSTRUCTOR>
                 <PRIVATE>true</PRIVATE>
               </AND>
             </match>
@@ -462,7 +464,50 @@
           <rule>
             <match>
               <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PROTECTED>true</PROTECTED>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <METHOD>true</METHOD>
                 <PROTECTED>true</PROTECTED>
                 <STATIC>true</STATIC>
@@ -476,8 +521,61 @@
               <AND>
                 <FINAL>true</FINAL>
                 <METHOD>true</METHOD>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
                 <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
                 <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+                <STATIC>true</STATIC>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FINAL>true</FINAL>
+                <METHOD>true</METHOD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <METHOD>true</METHOD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
           </rule>
@@ -499,39 +597,6 @@
             <match>
               <AND>
                 <METHOD>true</METHOD>
-                <PUBLIC>true</PUBLIC>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PROTECTED>true</PROTECTED>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-                <STATIC>true</STATIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
                 <PRIVATE>true</PRIVATE>
                 <STATIC>true</STATIC>
               </AND>
@@ -544,70 +609,7 @@
               <AND>
                 <FINAL>true</FINAL>
                 <METHOD>true</METHOD>
-                <PUBLIC>true</PUBLIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FINAL>true</FINAL>
-                <METHOD>true</METHOD>
-                <PROTECTED>true</PROTECTED>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FINAL>true</FINAL>
-                <METHOD>true</METHOD>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FINAL>true</FINAL>
-                <METHOD>true</METHOD>
                 <PRIVATE>true</PRIVATE>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PUBLIC>true</PUBLIC>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PROTECTED>true</PROTECTED>
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <METHOD>true</METHOD>
-                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
           </rule>
