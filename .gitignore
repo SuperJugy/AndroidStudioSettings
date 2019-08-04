@@ -1,5 +1,6 @@
 config/disabled_update.txt
 config/componentVersions/
+config/idea64.exe.vmoptions
 config/migration/
 config/options/androidEditors.xml
 config/options/androidStudioFirstRun.xml
@@ -28,6 +29,7 @@ config/options/stubIndex.xml
 config/options/studio.build.statistics.xml
 config/options/updates.xml
 config/options/usage.statistics.xml
+config/options/vcs.xml
 config/options/web-browsers.xml
 config/options/window.manager.xml
 config/options/window.state.xml
@@ -36,6 +38,7 @@ config/port
 config/port.lock
 config/tasks/
 config/terminal/history/history-
-config/user.token
+config/user.web.token
+config/workspace/
 restart/
 system/
