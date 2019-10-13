@@ -7,6 +7,7 @@ config/options/androidStudioFirstRun.xml
 config/options/appComponentVersions.xml
 config/options/browsers.xml
 config/options/dimensions.xml
+config/options/discord.xml
 config/options/extensionsRootType.xml
 config/options/feature.usage.statistics.xml
 config/options/fileEditorProviderManager.xml
