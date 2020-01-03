@@ -25,6 +25,7 @@ config/options/plugin_ui.xml
 config/options/project.default.xml
 config/options/recentProjects.xml
 config/options/runner.layout.xml
+config/options/scratches.xml
 config/options/statistics.application.usages.xml
 config/options/stubIndex.xml
 config/options/studio.build.statistics.xml
@@ -37,6 +38,7 @@ config/options/window.state.xml
 config/plugins/
 config/port
 config/port.lock
+config/scratches/
 config/tasks/
 config/terminal/history/history-
 config/user.web.token
